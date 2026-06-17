@@ -1,26 +1,51 @@
 import { supabase } from "../config/supabase.js";
 
-const DROP_CATEGORY_TO_ITEM_TYPE = {
-  gems: "gem",
-  items: "item",
-  weapons: "weapon",
-  armors: "armor",
-  accessories: "accessory",
-  bPetEq: "b_pet_eq",
-  pets: "pet",
-  questItems: "quest_item",
+const DROP_CONFIG = {
+  items: {
+    table: "items",
+    foreignKey: "item_id",
+    dropCategory: "items",
+  },
+  questItems: {
+    table: "items",
+    foreignKey: "item_id",
+    dropCategory: "quest_items",
+  },
+  gems: {
+    table: "gems",
+    foreignKey: "gem_id",
+    dropCategory: "gems",
+  },
+  pets: {
+    table: "pets",
+    foreignKey: "pet_id",
+    dropCategory: "pets",
+  },
+  weapons: {
+    table: "weapons",
+    foreignKey: "weapon_id",
+    dropCategory: "weapons",
+  },
+  armors: {
+    table: "armors",
+    foreignKey: "armor_id",
+    dropCategory: "armors",
+  },
+  accessories: {
+    table: "accessories",
+    foreignKey: "accessory_id",
+    dropCategory: "accessories",
+  },
+  bPetEq: {
+    table: "battle_pet_equipments",
+    foreignKey: "battle_pet_equipment_id",
+    dropCategory: "b_pet_eq",
+  },
 };
 
-const DROP_CATEGORY_TO_DB_VALUE = {
-  gems: "gems",
-  items: "items",
-  weapons: "weapons",
-  armors: "armors",
-  accessories: "accessories",
-  bPetEq: "b_pet_eq",
-  pets: "pets",
-  questItems: "quest_items",
-};
+function currentTimestamp() {
+  return new Date().toISOString();
+}
 
 async function upsertMonster(monster) {
   const { data, error } = await supabase
@@ -34,7 +59,7 @@ async function upsertMonster(monster) {
         image_url: monster.imageUrl,
         source_page: monster.sourcePage,
         source_url: monster.sourceUrl,
-        updated_at: new Date().toISOString(),
+        updated_at: currentTimestamp(),
       },
       {
         onConflict: "slug",
@@ -50,40 +75,16 @@ async function upsertMonster(monster) {
   return data;
 }
 
-async function upsertLocation(location) {
+async function upsertEntity(table, entity) {
   const { data, error } = await supabase
-    .from("locations")
+    .from(table)
     .upsert(
       {
-        slug: location.slug,
-        name: location.name,
-        source_url: location.sourceUrl,
-        updated_at: new Date().toISOString(),
-      },
-      {
-        onConflict: "slug",
-      }
-    )
-    .select("id")
-    .single();
-
-  if (error) {
-    throw error;
-  }
-
-  return data;
-}
-
-async function upsertItem(item, itemType) {
-  const { data, error } = await supabase
-    .from("items")
-    .upsert(
-      {
-        slug: item.slug,
-        name: item.name,
-        item_type: itemType,
-        source_url: item.sourceUrl,
-        updated_at: new Date().toISOString(),
+        slug: entity.slug,
+        name: entity.name,
+        image_url: entity.imageUrl,
+        source_url: entity.sourceUrl,
+        updated_at: currentTimestamp(),
       },
       {
         onConflict: "slug",
@@ -116,10 +117,11 @@ async function replaceMonsterLocations(monsterId, locations) {
   const locationRows = [];
 
   for (const [index, location] of locations.entries()) {
-    const savedLocation = await upsertLocation(location);
+    const savedMap = await upsertEntity("maps", location);
+
     locationRows.push({
       monster_id: monsterId,
-      location_id: savedLocation.id,
+      map_id: savedMap.id,
       source_order: index,
     });
   }
@@ -131,6 +133,30 @@ async function replaceMonsterLocations(monsterId, locations) {
   if (insertError) {
     throw insertError;
   }
+}
+
+function dedupeDropRows(rows) {
+  return rows.filter((row, index, candidates) => {
+    const targetKey = Object.entries(row).find(
+      ([key, value]) => key.endsWith("_id") && key !== "monster_id" && value
+    );
+
+    if (!targetKey) {
+      return false;
+    }
+
+    const [foreignKey, foreignId] = targetKey;
+
+    return (
+      candidates.findIndex((candidate) => {
+        return (
+          candidate.monster_id === row.monster_id &&
+          candidate.drop_category === row.drop_category &&
+          candidate[foreignKey] === foreignId
+        );
+      }) === index
+    );
+  });
 }
 
 async function replaceMonsterDrops(monsterId, drops) {
@@ -145,40 +171,30 @@ async function replaceMonsterDrops(monsterId, drops) {
 
   const dropRows = [];
 
-  for (const [dropKey, items] of Object.entries(drops || {})) {
-    if (!items?.length) continue;
+  for (const [dropKey, entities] of Object.entries(drops || {})) {
+    const config = DROP_CONFIG[dropKey];
 
-    const itemType = DROP_CATEGORY_TO_ITEM_TYPE[dropKey] ?? "unknown";
-    const dropCategory = DROP_CATEGORY_TO_DB_VALUE[dropKey];
+    if (!config || !entities?.length) {
+      continue;
+    }
 
-    if (!dropCategory) continue;
-
-    for (const [index, item] of items.entries()) {
-      const savedItem = await upsertItem(item, itemType);
+    for (const [index, entity] of entities.entries()) {
+      const savedEntity = await upsertEntity(config.table, entity);
 
       dropRows.push({
         monster_id: monsterId,
-        item_id: savedItem.id,
-        drop_category: dropCategory,
+        drop_category: config.dropCategory,
+        [config.foreignKey]: savedEntity.id,
         source_order: index,
       });
     }
   }
 
-  if (!dropRows.length) {
+  const uniqueDropRows = dedupeDropRows(dropRows);
+
+  if (!uniqueDropRows.length) {
     return;
   }
-
-  const uniqueDropRows = dropRows.filter((row, index, rows) => {
-    return (
-      rows.findIndex(
-        (candidate) =>
-          candidate.monster_id === row.monster_id &&
-          candidate.item_id === row.item_id &&
-          candidate.drop_category === row.drop_category
-      ) === index
-    );
-  });
 
   const { error: insertError } = await supabase
     .from("monster_drops")
@@ -191,6 +207,7 @@ async function replaceMonsterDrops(monsterId, drops) {
 
 export async function saveMonster(monster) {
   const savedMonster = await upsertMonster(monster);
+
   await replaceMonsterLocations(savedMonster.id, monster.foundAt);
   await replaceMonsterDrops(savedMonster.id, monster.drops);
 
