@@ -1,7 +1,8 @@
 import { LEVEL_PAGES } from "../config/pages.js";
 import { fetchFandomPageHtml } from "../clients/fandomClient.js";
 import { parseMonsterPage } from "../parsers/monsterParser.js";
-import { saveMonsterWithDrops } from "../repositories/monsterRepository.js";
+import { saveMonster } from "../repositories/monsterRepository.js";
+import { saveFetchedPageHtml } from "../utils/pageSnapshot.js";
 import { wait } from "../utils/wait.js";
 
 export async function importMonsters() {
@@ -12,7 +13,10 @@ export async function importMonsters() {
     console.log(`Fetching page: ${levelPage}`);
 
     const html = await fetchFandomPageHtml(levelPage);
+    const snapshotPath = await saveFetchedPageHtml(levelPage, html);
     const monsters = parseMonsterPage(html, levelPage);
+
+    console.log(`Saved HTML snapshot: ${snapshotPath}`);
 
     console.log(`Parsed ${monsters.length} monsters from ${levelPage}`);
 
@@ -20,7 +24,7 @@ export async function importMonsters() {
 
     for (const monster of monsters) {
       try {
-        await saveMonsterWithDrops(monster);
+        await saveMonster(monster);
         totalSaved += 1;
         console.log(`Saved: ${monster.name}`);
       } catch (error) {
