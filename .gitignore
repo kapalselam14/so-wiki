@@ -4,3 +4,6 @@ dist/
 .vite/
 .DS_Store
 .vscode
+docs/
+journal/
+data-retrieval/data/fandom-pages/
