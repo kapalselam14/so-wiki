@@ -1,7 +1,7 @@
 import { LEVEL_PAGES } from "../config/pages.js";
 import { fetchFandomPageHtml } from "../clients/fandomClient.js";
 import { parseMonsterPage } from "../parsers/monsterParser.js";
-import { saveMonster } from "../repositories/monsterRepository.js";
+import { saveMonster } from "../repositories/monsterImportRepository.js";
 import { saveFetchedPageHtml } from "../utils/pageSnapshot.js";
 import { wait } from "../utils/wait.js";
 

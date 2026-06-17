@@ -1,0 +1,3239 @@
+[
+  {
+    "slug": "giant-rascal-rabbit",
+    "name": "Giant Rascal Rabbit",
+    "level": 16,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c1/Giant_Rascal_Rabbit.gif/revision/latest/scale-to-width-down/100?cb=20080201025207",
+    "foundAt": [
+      {
+        "slug": "travia-valley",
+        "name": "Travia Valley",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Travia_Valley",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/20/Travia_Valley.gif/revision/latest?cb=20080125084805"
+      },
+      {
+        "slug": "crude-mountain-range",
+        "name": "Crude Mountain Range",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Crude_Mountain_Range",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fd/Crude_Mountain_Range.gif/revision/latest?cb=20080129012547"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "wit",
+          "name": "Wit",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wit",
+          "imageUrl": null
+        },
+        {
+          "slug": "stone",
+          "name": "Stone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stone",
+          "imageUrl": null
+        },
+        {
+          "slug": "rod",
+          "name": "Rod",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rod",
+          "imageUrl": null
+        },
+        {
+          "slug": "tooth",
+          "name": "Tooth",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Tooth",
+          "imageUrl": null
+        },
+        {
+          "slug": "liver",
+          "name": "Liver",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Liver",
+          "imageUrl": null
+        },
+        {
+          "slug": "eyeball",
+          "name": "Eyeball",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Eyeball",
+          "imageUrl": null
+        },
+        {
+          "slug": "peat",
+          "name": "Peat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Peat",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-coal",
+          "name": "Brown Coal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Coal",
+          "imageUrl": null
+        },
+        {
+          "slug": "mysterious-crystal",
+          "name": "Mysterious Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mysterious_Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-4",
+          "name": "Production Manual(Accessory)#4",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10#4",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-8",
+          "name": "Production Manual(Accessory)#8",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10#8",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-10",
+          "name": "Production Manual(Accessory)#10",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10#10",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "rabbit-s-cleaver",
+          "name": "Rabbit's Cleaver",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rabbit%27s_Cleaver",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f8/Rabbit%27s_Cleaver.gif/revision/latest?cb=20080303111228"
+        },
+        {
+          "slug": "rascal-s-bludgeon",
+          "name": "Rascal's Bludgeon",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rascal%27s_Bludgeon",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/28/Rascal%27s_Bludgeon.gif/revision/latest?cb=20080304002345"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "wooden-shield-g",
+          "name": "Wooden Shield.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wooden_Shield",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/2d/Wooden_Shield.gif/revision/latest?cb=20080305005632"
+        },
+        {
+          "slug": "shoes-of-devotion",
+          "name": "Shoes of Devotion",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Shoes_of_Devotion",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/03/Shoes_of_Devotion.gif/revision/latest?cb=20080305005549"
+        },
+        {
+          "slug": "maker-s-shoes",
+          "name": "Maker's Shoes",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Maker%27s_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/1c/Maker%27s_Shoes.gif/revision/latest?cb=20080305023436"
+        },
+        {
+          "slug": "screwdriver",
+          "name": "Screwdriver",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Screwdriver",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/1d/Screwdriver.gif/revision/latest?cb=20080312071804"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "rabbit-s-ears",
+          "name": "Rabbit's Ears",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rabbit%27s_Ears",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/55/Rabbit_Ears.gif/revision/latest?cb=20080502080948"
+        },
+        {
+          "slug": "smarty-s-glasses",
+          "name": "Smarty's Glasses",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Smarty%27s_Glasses",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/30/Smarty%27s_Glasses.gif/revision/latest?cb=20110320074713"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "wit",
+          "name": "Wit",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wit",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "giant-moo-moo",
+    "name": "(Giant)Moo Moo",
+    "level": 16,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/dd/Giant_Moo_Moo.gif/revision/latest/scale-to-width-down/100?cb=20111204121709",
+    "foundAt": [
+      {
+        "slug": "upstream-of-glasis-river",
+        "name": "Upstream of Glasis River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Glasis_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d9/Upstream_of_Glasis_River.gif/revision/latest?cb=20080129025519"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "red-fire",
+          "name": "Red Fire",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Red_Fire",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "stem-of-radish",
+          "name": "Stem of Radish",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stem_of_Radish",
+          "imageUrl": null
+        },
+        {
+          "slug": "vegetable-oil",
+          "name": "Vegetable Oil",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vegetable_Oil",
+          "imageUrl": null
+        },
+        {
+          "slug": "hard-shell",
+          "name": "Hard Shell",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hard_Shell",
+          "imageUrl": null
+        },
+        {
+          "slug": "2-handed-sword-hilt",
+          "name": "2-Handed Sword Hilt",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/2-Handed_Sword_Hilt",
+          "imageUrl": null
+        },
+        {
+          "slug": "hydrogen",
+          "name": "Hydrogen",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hydrogen",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "iron-sceptre",
+          "name": "Iron Sceptre",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Iron_Sceptre",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/2a/Iron_Sceptre.gif/revision/latest?cb=20080305062327"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "magic-leather-hat",
+          "name": "Magic Leather Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Leather_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/1a/Magic_Leather_Hat.gif/revision/latest?cb=20080303085426"
+        },
+        {
+          "slug": "trailer-s-leather-armor-t",
+          "name": "Trailer's Leather Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Trailer%27s_Leather_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/eb/Trailer%27s_Leather_Armor%28T%29.gif/revision/latest?cb=20110930101241"
+        },
+        {
+          "slug": "brawlers-shoes",
+          "name": "Brawlers Shoes",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brawlers_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d5/Brawlers_Shoes.gif/revision/latest?cb=20080306012731"
+        },
+        {
+          "slug": "ironclad-bulwark",
+          "name": "Ironclad Bulwark",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ironclad_Bulwark",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0e/Ironclad_Bulwark.gif/revision/latest?cb=20111204120941"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "unknown",
+          "name": "Unknown",
+          "sourceUrl": null,
+          "imageUrl": null
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "stem-of-radish",
+          "name": "Stem of Radish",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stem_of_Radish",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        },
+        {
+          "slug": "vegetable-oil",
+          "name": "Vegetable Oil",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vegetable_Oil",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "knight-piya",
+    "name": "Knight Piya",
+    "level": 16,
+    "element": "Physical",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/28/Knight_Piya.gif/revision/latest/scale-to-width-down/100?cb=20090305135600",
+    "foundAt": [
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      },
+      {
+        "slug": "outer-wall-of-lime",
+        "name": "Outer Wall of Lime",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Outer_Wall_of_Lime",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/6f/Outer_Wall_of_Lime.gif/revision/latest?cb=20080130035221"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "armor-pieces",
+          "name": "Armor Pieces",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Armor_Pieces",
+          "imageUrl": null
+        },
+        {
+          "slug": "piya-s-unfertilized-egg",
+          "name": "Piya's Unfertilized Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya%27s_Unfertilized_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-romance",
+          "name": "Man's Romance",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Romance",
+          "imageUrl": null
+        },
+        {
+          "slug": "platinum",
+          "name": "Platinum",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Platinum",
+          "imageUrl": null
+        },
+        {
+          "slug": "peat",
+          "name": "Peat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Peat",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cd-2",
+          "name": "Production Manual(CD)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CD)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cld-2",
+          "name": "Production Manual(ClD)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ClD)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cmd-2",
+          "name": "Production Manual(CmD)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CmD)#2",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "piya-s-sword",
+          "name": "Piya's Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya%27s_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/67/Piya%27s_Sword.gif/revision/latest?cb=20080123111903"
+        },
+        {
+          "slug": "teaspoon",
+          "name": "Teaspoon",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Teaspoon",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/16/Teaspoon.gif/revision/latest?cb=20170524101613"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "steel-plated-shield",
+          "name": "Steel Plated Shield",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Steel_Plated_Shield",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/71/Steel_Plated_Shield.gif/revision/latest?cb=20080305005632"
+        },
+        {
+          "slug": "steel-plated-armor-t",
+          "name": "Steel Plated Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Steel_Plated_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/91/Steel_Plated_Armor%28T%29.gif/revision/latest?cb=20080223192601"
+        },
+        {
+          "slug": "laborer-s-gear-hat-g",
+          "name": "Laborer's Gear Hat.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Laborer%27s_Gear_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fe/Laborer%27s_Gear_Hat.gif/revision/latest?cb=20080305023356"
+        },
+        {
+          "slug": "hunter-s-headband",
+          "name": "Hunter's Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hunter%27s_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Hunter%27s_Headband.gif/revision/latest?cb=20110930160003"
+        },
+        {
+          "slug": "steel-plated-boots-g",
+          "name": "Steel Plated Boots.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Steel_Plated_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/23/Steel_Plated_Boots.gif/revision/latest?cb=20080223192849"
+        },
+        {
+          "slug": "crystalline-shield",
+          "name": "Crystalline Shield",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Shield",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/86/Crystalline_Shield.gif/revision/latest?cb=20080317060532"
+        }
+      ],
+      "accessories": [],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "seed-egg",
+          "name": "Seed Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Seed_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "stiff-horse",
+    "name": "Stiff Horse",
+    "level": 17,
+    "element": "Wood",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9d/Stiff_Horse.gif/revision/latest/scale-to-width-down/100?cb=20080201025519",
+    "foundAt": [
+      {
+        "slug": "upstream-of-mimir-river",
+        "name": "Upstream of Mimir River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Mimir_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Upstream_of_Mimir_River.gif/revision/latest?cb=20080126092202"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-soil",
+          "name": "Brown Soil",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Soil",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "brass",
+          "name": "Brass",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brass",
+          "imageUrl": null
+        },
+        {
+          "slug": "rod",
+          "name": "Rod",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rod",
+          "imageUrl": null
+        },
+        {
+          "slug": "respect",
+          "name": "Respect",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Respect",
+          "imageUrl": null
+        },
+        {
+          "slug": "bronze",
+          "name": "Bronze",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bronze",
+          "imageUrl": null
+        },
+        {
+          "slug": "wooden-board",
+          "name": "Wooden Board",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wooden_Board",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-mage",
+          "name": "Mark of Mage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Mage",
+          "imageUrl": null
+        },
+        {
+          "slug": "seaweed",
+          "name": "Seaweed",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Seaweed",
+          "imageUrl": null
+        },
+        {
+          "slug": "bell",
+          "name": "Bell",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bell",
+          "imageUrl": null
+        },
+        {
+          "slug": "ash",
+          "name": "Ash",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ash",
+          "imageUrl": null
+        },
+        {
+          "slug": "hard-shell",
+          "name": "Hard Shell",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hard_Shell",
+          "imageUrl": null
+        },
+        {
+          "slug": "elf-s-feather",
+          "name": "Elf's Feather",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Elf%27s_Feather",
+          "imageUrl": null
+        },
+        {
+          "slug": "laxative-bomb",
+          "name": "Laxative Bomb",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Laxative_Bomb",
+          "imageUrl": null
+        },
+        {
+          "slug": "fairy-s-antenna",
+          "name": "Fairy's Antenna",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Fairy%27s_Antenna",
+          "imageUrl": null
+        },
+        {
+          "slug": "meaningless-mark",
+          "name": "Meaningless Mark",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Meaningless_Mark",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory",
+          "name": "Production Manual(Accessory)#",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "chrome-blade",
+          "name": "Chrome Blade",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Chrome_Blade",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/7c/Chrome_Blade.gif/revision/latest?cb=20080129112143"
+        },
+        {
+          "slug": "spellot",
+          "name": "Spellot",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Spellot",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f6/Spellot.gif/revision/latest?cb=20080129112312"
+        },
+        {
+          "slug": "gear-hammer",
+          "name": "Gear Hammer",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gear_Hammer",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0b/Gear_Hammer.gif/revision/latest?cb=20080305033649"
+        },
+        {
+          "slug": "keyboard",
+          "name": "Keyboard",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Keyboard",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/40/Keyboard.gif/revision/latest?cb=20110316035441"
+        },
+        {
+          "slug": "doga-s-bean-shooter",
+          "name": "Doga's Bean Shooter",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Doga%27s_Bean_Shooter",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/3f/Doga%27s_Bean_Shooter.gif/revision/latest?cb=20110916192156"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "brawlers-headband",
+          "name": "Brawlers Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brawlers_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/17/Brawlers_Headband.gif/revision/latest?cb=20080305090007"
+        },
+        {
+          "slug": "warrior-s-leather-clothes-t",
+          "name": "Warrior's Leather Clothes(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Warrior%27s_Leather_Clothes(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/01/Warrior%27s_Leather_Clothes%28T%29.gif/revision/latest?cb=20080306012752"
+        },
+        {
+          "slug": "leather-hat",
+          "name": "Leather Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Leather_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/88/Leather_Hat.gif/revision/latest?cb=20080305090008"
+        },
+        {
+          "slug": "magic-leather-clothes-t",
+          "name": "Magic Leather Clothes(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Leather_Clothes(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/34/Magic_Leather_Clothes%28T%29.gif/revision/latest?cb=20080303085426"
+        },
+        {
+          "slug": "blessed-hat",
+          "name": "Blessed Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blessed_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d7/Blessed_Hat.gif/revision/latest?cb=20080305005159"
+        },
+        {
+          "slug": "bandage",
+          "name": "Bandage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bandage",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c7/Bandage.gif/revision/latest?cb=20111016001210"
+        },
+        {
+          "slug": "clothes-of-asceticism-b",
+          "name": "Clothes of Asceticism(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Clothes_of_Asceticism(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/03/Clothes_of_Asceticism%28B%29.gif/revision/latest?cb=20080306033548"
+        },
+        {
+          "slug": "steel-plated-helm",
+          "name": "Steel Plated Helm",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Steel_Plated_Helm",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/4e/Steel_Plated_Helm.gif/revision/latest?cb=20080223192540"
+        }
+      ],
+      "accessories": [],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "seed",
+          "name": "Seed",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Seed",
+          "imageUrl": null
+        },
+        {
+          "slug": "green-seed",
+          "name": "Green Seed",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Green_Seed",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "letter-from-kids-of-whitebass",
+          "name": "Letter from Kids of Whitebass",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Letter_from_Kids_of_Whitebass",
+          "imageUrl": null
+        },
+        {
+          "slug": "mermaid-s-bubble",
+          "name": "Mermaid's Bubble",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mermaid%27s_Bubble",
+          "imageUrl": null
+        },
+        {
+          "slug": "pet-trainer",
+          "name": "Pet Trainer",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Pet_Trainer",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "wood-golem",
+    "name": "Wood Golem",
+    "level": 18,
+    "element": "Wood",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c6/Wood_Golem.gif/revision/latest/scale-to-width-down/100?cb=20080201025702",
+    "foundAt": [
+      {
+        "slug": "upstream-of-glasis-river",
+        "name": "Upstream of Glasis River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Glasis_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d9/Upstream_of_Glasis_River.gif/revision/latest?cb=20080129025519"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "green-wood",
+          "name": "Green Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Green_Wood",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "wooden-board",
+          "name": "Wooden Board",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wooden_Board",
+          "imageUrl": null
+        },
+        {
+          "slug": "log",
+          "name": "Log",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Log",
+          "imageUrl": null
+        },
+        {
+          "slug": "faded-wood",
+          "name": "Faded Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Faded_Wood",
+          "imageUrl": null
+        },
+        {
+          "slug": "mysterious-crystal",
+          "name": "Mysterious Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mysterious_Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "peat",
+          "name": "Peat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Peat",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-19",
+          "name": "Production Manual(Accessory)#19",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)11-20#19",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "slasher-g",
+          "name": "Slasher.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Slasher",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/3e/Slasher.gif/revision/latest?cb=20080126015607"
+        },
+        {
+          "slug": "guitar",
+          "name": "Guitar",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Guitar",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/55/Guitar.gif/revision/latest?cb=20110316040607"
+        },
+        {
+          "slug": "toy-hammer",
+          "name": "Toy Hammer",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Toy_Hammer",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/73/Toy_Hammer.gif/revision/latest?cb=20080305034358"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "winged-shield",
+          "name": "Winged Shield",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Winged_Shield",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d0/Winged_Shield.gif/revision/latest?cb=20080305005632"
+        },
+        {
+          "slug": "metal-alloy-helmet",
+          "name": "Metal Alloy Helmet",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metal_Alloy_Helmet",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f0/Metal_Alloy_Helmet.gif/revision/latest?cb=20080223200033"
+        },
+        {
+          "slug": "crown-of-asceticism-g",
+          "name": "Crown of Asceticism.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crown_of_Asceticism",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fe/Crown_of_Asceticism.gif/revision/latest?cb=20080305005201"
+        },
+        {
+          "slug": "steel-plated-armor-b-g",
+          "name": "Steel Plated Armor(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Steel_Plated_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/29/Steel_Plated_Armor%28B%29.gif/revision/latest?cb=20080223192606"
+        },
+        {
+          "slug": "trailer-s-leather-armor-b-g",
+          "name": "Trailer's Leather Armor(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Trailer%27s_Leather_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Trailer%27s_Leather_Armor%28B%29.gif/revision/latest?cb=20110930101233"
+        }
+      ],
+      "accessories": [],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "wooden-board",
+          "name": "Wooden Board",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wooden_Board",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "windy",
+    "name": "Windy",
+    "level": 23,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/2a/Windy.gif/revision/latest/scale-to-width-down/100?cb=20080201025718",
+    "foundAt": [
+      {
+        "slug": "crude-mountain-range",
+        "name": "Crude Mountain Range",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Crude_Mountain_Range",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fd/Crude_Mountain_Range.gif/revision/latest?cb=20080129012547"
+      },
+      {
+        "slug": "upstream-of-glasis-river",
+        "name": "Upstream of Glasis River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Glasis_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d9/Upstream_of_Glasis_River.gif/revision/latest?cb=20080129025519"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-soil",
+          "name": "Brown Soil",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Soil",
+          "imageUrl": null
+        },
+        {
+          "slug": "black-orb",
+          "name": "Black Orb",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Black_Orb",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "mark-of-wind",
+          "name": "Mark of Wind",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Wind",
+          "imageUrl": null
+        },
+        {
+          "slug": "magic-powder",
+          "name": "Magic Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Powder",
+          "imageUrl": null
+        },
+        {
+          "slug": "hatching-stone",
+          "name": "Hatching Stone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hatching_Stone",
+          "imageUrl": null
+        },
+        {
+          "slug": "rice-powder",
+          "name": "Rice Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rice_Powder",
+          "imageUrl": null
+        },
+        {
+          "slug": "solarstone",
+          "name": "Solarstone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Solarstone",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-coal",
+          "name": "Brown Coal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Coal",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-kd-3",
+          "name": "Production Manual(KD)#3",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(KD)#3",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-wd-3",
+          "name": "Production Manual(WD)#3",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(WD)#3",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-md-3",
+          "name": "Production Manual(MD)#3",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(MD)#3",
+          "imageUrl": null
+        },
+        {
+          "slug": "armor-pieces",
+          "name": "Armor Pieces",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Armor_Pieces",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "great-iron-sword-g",
+          "name": "Great Iron Sword.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Great_Iron_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/08/Great_Iron_Sword.gif/revision/latest?cb=20080123111929"
+        },
+        {
+          "slug": "staff-of-turbulence",
+          "name": "Staff of Turbulence",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Staff_of_Turbulence",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/26/Staff_of_Turbulence.gif/revision/latest?cb=20080215231256"
+        },
+        {
+          "slug": "woodpecker-egg-magical",
+          "name": "Woodpecker Egg(Magical)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Woodpecker_Egg(Magical)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/3d/Woodpecker_Egg%28Magical%29.gif/revision/latest?cb=20110916193034"
+        },
+        {
+          "slug": "metronicker",
+          "name": "Metronicker",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metronicker",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/28/Metronicker.gif/revision/latest?cb=20080502051007"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "aviator-s-armor-t",
+          "name": "Aviator's Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/52/Aviator%27s_Armor%28T%29.gif/revision/latest?cb=20080224033448"
+        },
+        {
+          "slug": "aviator-s-boots-g",
+          "name": "Aviator's Boots.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/66/Aviator%27s_Boots.gif/revision/latest?cb=20080224033455"
+        },
+        {
+          "slug": "ragged-shoes-g",
+          "name": "Ragged Shoes.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ragged_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/27/Ragged_Shoes.gif/revision/latest?cb=20080314093706"
+        },
+        {
+          "slug": "puppet-shoes-g",
+          "name": "Puppet Shoes.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Puppet_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/61/Puppet_Shoes.gif/revision/latest?cb=20080305010419"
+        },
+        {
+          "slug": "ivory-fur-leather-headband",
+          "name": "Ivory Fur Leather Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ivory_Fur_Leather_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/b3/Ivory_Fur_Leather_Headband.gif/revision/latest?cb=20110930160233"
+        },
+        {
+          "slug": "wind-hat",
+          "name": "Wind Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wind_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/57/Wind_Hat.gif/revision/latest?cb=20080428205750"
+        },
+        {
+          "slug": "magnum-armor-t",
+          "name": "Magnum Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magnum_Armor(T)",
+          "imageUrl": null
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "black-ribbon",
+          "name": "Black Ribbon",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Black_Ribbon",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f6/Black_Ribbon.gif/revision/latest?cb=20080129012409"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "magic-powder",
+          "name": "Magic Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Powder",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-wind",
+          "name": "Mark of Wind",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Wind",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "silky-joe-the-boxer",
+    "name": "Silky Joe the Boxer",
+    "level": 23,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/61/Silky_Joe_the_Boxer.gif/revision/latest/scale-to-width-down/100?cb=20080201025751",
+    "foundAt": [
+      {
+        "slug": "adel-monastery",
+        "name": "Adel Monastery",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Adel_Monastery",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/01/Adel_Monastery.gif/revision/latest?cb=20110914081633"
+      },
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "white-spirit",
+          "name": "White Spirit",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/White_Spirit",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "silkworm-s-thread",
+          "name": "Silkworm's Thread",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Silkworm%27s_Thread",
+          "imageUrl": null
+        },
+        {
+          "slug": "5-color-string",
+          "name": "5 Color String",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/5_Color_String",
+          "imageUrl": null
+        },
+        {
+          "slug": "mulberry-leaf",
+          "name": "Mulberry Leaf",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mulberry_Leaf",
+          "imageUrl": null
+        },
+        {
+          "slug": "lignite",
+          "name": "Lignite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Lignite",
+          "imageUrl": null
+        },
+        {
+          "slug": "wheat",
+          "name": "Wheat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wheat",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-chaoticdef-2",
+          "name": "Production Manual(ChaoticDef)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ChaoticDef)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-2",
+          "name": "Production Manual(Accessory)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)11-20#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "faded-wood",
+          "name": "Faded Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Faded_Wood",
+          "imageUrl": null
+        },
+        {
+          "slug": "large-horn",
+          "name": "Large Horn",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Large_Horn",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "great-iron-sword",
+          "name": "Great Iron Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Great_Iron_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/08/Great_Iron_Sword.gif/revision/latest?cb=20080123111929"
+        },
+        {
+          "slug": "bolt-hammer-g",
+          "name": "Bolt Hammer.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bolt_Hammer",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/a2/Bolt_Hammer.gif/revision/latest?cb=20080305033649"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "brawlers-garb-t",
+          "name": "Brawlers Garb(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brawlers_Garb(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/7c/Brawlers_Garb%28T%29.gif/revision/latest?cb=20080306012730"
+        },
+        {
+          "slug": "puppet-suit-t",
+          "name": "Puppet Suit(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Puppet_Suit(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ab/Puppet_Suit%28T%29.gif/revision/latest?cb=20080305010420"
+        },
+        {
+          "slug": "hat-of-devotion-g",
+          "name": "Hat of Devotion.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hat_of_Devotion",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9e/Hat_of_Devotion.gif/revision/latest?cb=20080306033550"
+        },
+        {
+          "slug": "maker-s-shoes-g",
+          "name": "Maker's Shoes.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Maker%27s_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/1c/Maker%27s_Shoes.gif/revision/latest?cb=20080305023436"
+        },
+        {
+          "slug": "laborer-s-clothes-b-g",
+          "name": "Laborer's Clothes(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Laborer%27s_Clothes(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/50/Laborer%27s_Clothes%28B%29.gif/revision/latest?cb=20080305023341"
+        },
+        {
+          "slug": "ragged-shoes",
+          "name": "Ragged Shoes",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ragged_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/de/Ragged_shoes.gif/revision/latest?cb=20110103071710"
+        }
+      ],
+      "accessories": [],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "pink-piya-egg",
+          "name": "Pink Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Pink_Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "silkworm-s-thread",
+          "name": "Silkworm's Thread",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Silkworm%27s_Thread",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        },
+        {
+          "slug": "5-color-string",
+          "name": "5 Color String",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/5_Color_String",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "warrior-piya",
+    "name": "Warrior Piya",
+    "level": 24,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/40/Warrior_Piya.gif/revision/latest/scale-to-width-down/100?cb=20080201025736",
+    "foundAt": [
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      },
+      {
+        "slug": "outer-wall-of-lime",
+        "name": "Outer Wall of Lime",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Outer_Wall_of_Lime",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/6f/Outer_Wall_of_Lime.gif/revision/latest?cb=20080130035221"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "armor-pieces",
+          "name": "Armor Pieces",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Armor_Pieces",
+          "imageUrl": null
+        },
+        {
+          "slug": "iron-plate",
+          "name": "Iron Plate",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Iron_Plate",
+          "imageUrl": null
+        },
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "bowl",
+          "name": "Bowl",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bowl",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-romance",
+          "name": "Man's Romance",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Romance",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-senility",
+          "name": "Man's Senility",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Senility",
+          "imageUrl": null
+        },
+        {
+          "slug": "rice-powder",
+          "name": "Rice Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Rice_Powder",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "warrior-piya-s-sword",
+          "name": "Warrior Piya's Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Warrior_Piya%27s_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/89/Warrior_Piya%27s_Sword.gif/revision/latest?cb=20080123112031"
+        },
+        {
+          "slug": "piya-s-sword",
+          "name": "Piya's Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya%27s_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/67/Piya%27s_Sword.gif/revision/latest?cb=20080123111903"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "militia-shoes",
+          "name": "Militia Shoes",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Militia_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/dd/Militia_Shoes.gif/revision/latest?cb=20080306012734"
+        },
+        {
+          "slug": "blessed-boots",
+          "name": "Blessed Boots",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blessed_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/e8/Blessed_Boots.gif/revision/latest?cb=20080305005158"
+        },
+        {
+          "slug": "aviator-s-armor-b-g",
+          "name": "Aviator's Armor(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c5/Aviator%27s_Armor%28B%29.gif/revision/latest?cb=20080224033450"
+        },
+        {
+          "slug": "hunter-s-armor-b",
+          "name": "Hunter's Armor(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hunter%27s_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/4e/Hunter%27s_Armor%28B%29.gif/revision/latest?cb=20110930155942"
+        },
+        {
+          "slug": "puppet-suit-t",
+          "name": "Puppet Suit(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Puppet_Suit(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ab/Puppet_Suit%28T%29.gif/revision/latest?cb=20080305010420"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "lock-necklace",
+          "name": "Lock Necklace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Lock_Necklace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/af/Lock_Necklace.gif/revision/latest?cb=20101128013505"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "nixie",
+    "name": "Nixie",
+    "level": 909,
+    "element": "Water",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/39/Nixie.gif/revision/latest/scale-to-width-down/100?cb=20080201025810",
+    "foundAt": [
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      },
+      {
+        "slug": "upstream-of-glasis-river",
+        "name": "Upstream of Glasis River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Glasis_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d9/Upstream_of_Glasis_River.gif/revision/latest?cb=20080129025519"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "blue-water",
+          "name": "Blue Water",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Water",
+          "imageUrl": null
+        },
+        {
+          "slug": "green-wood",
+          "name": "Green Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Green_Wood",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-soil",
+          "name": "Brown Soil",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Soil",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "anthracite",
+          "name": "Anthracite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Anthracite",
+          "imageUrl": null
+        },
+        {
+          "slug": "blue-crystal",
+          "name": "Blue Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-coal",
+          "name": "Brown Coal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Coal",
+          "imageUrl": null
+        },
+        {
+          "slug": "crystal-of-nixie",
+          "name": "Crystal of Nixie",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal_of_Nixie",
+          "imageUrl": null
+        },
+        {
+          "slug": "crystal-of-star",
+          "name": "Crystal of Star",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal_of_Star",
+          "imageUrl": null
+        },
+        {
+          "slug": "lignite",
+          "name": "Lignite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Lignite",
+          "imageUrl": null
+        },
+        {
+          "slug": "magic-powder",
+          "name": "Magic Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Powder",
+          "imageUrl": null
+        },
+        {
+          "slug": "moonstone",
+          "name": "Moonstone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Moonstone",
+          "imageUrl": null
+        },
+        {
+          "slug": "nixie-s-scale",
+          "name": "Nixie's Scale",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Nixie%27s_Scale",
+          "imageUrl": null
+        },
+        {
+          "slug": "silkworm-s-thread",
+          "name": "Silkworm's Thread",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Silkworm%27s_Thread",
+          "imageUrl": null
+        },
+        {
+          "slug": "solarstone",
+          "name": "Solarstone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Solarstone",
+          "imageUrl": null
+        },
+        {
+          "slug": "starfish",
+          "name": "Starfish",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Starfish",
+          "imageUrl": null
+        },
+        {
+          "slug": "stone",
+          "name": "Stone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stone",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-kw-2",
+          "name": "Production Manual(KW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(KW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-mw-2",
+          "name": "Production Manual(MW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(MW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-ww-2",
+          "name": "Production Manual(WW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(WW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-clw-2",
+          "name": "Production Manual(ClW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ClW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cmw-2",
+          "name": "Production Manual(CmW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CmW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cw-2",
+          "name": "Production Manual(CW)#2",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CW)#2",
+          "imageUrl": null
+        },
+        {
+          "slug": "leather",
+          "name": "Leather",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Leather",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "reinforced-mace-g",
+          "name": "Reinforced Mace.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Reinforced_Mace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fa/Reinforced_Mace.gif/revision/latest?cb=20080305062343"
+        },
+        {
+          "slug": "staff-of-turbulence",
+          "name": "Staff of Turbulence",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Staff_of_Turbulence",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/26/Staff_of_Turbulence.gif/revision/latest?cb=20080215231256"
+        },
+        {
+          "slug": "crystalline-staff",
+          "name": "Crystalline Staff",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Staff",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/ba/Crystalline_Staff.gif/revision/latest?cb=20080215230659"
+        },
+        {
+          "slug": "nixie-s-trident",
+          "name": "Nixie's Trident",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Nixie%27s_Trident",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/cf/Nixie%27s_Trident.gif/revision/latest?cb=20080123111950"
+        },
+        {
+          "slug": "spellot",
+          "name": "Spellot",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Spellot",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f6/Spellot.gif/revision/latest?cb=20080129112312"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "hat-of-talent",
+          "name": "Hat of Talent",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hat_of_Talent",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/19/Hat_of_Talent.gif/revision/latest?cb=20080429053806"
+        },
+        {
+          "slug": "wanderer-s-suit-t",
+          "name": "Wanderer's Suit(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wanderer%27s_Suit(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0b/Wanderer%27s_Suit%28T%29.gif/revision/latest?cb=20080305010640"
+        },
+        {
+          "slug": "blessed-boots",
+          "name": "Blessed Boots",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blessed_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/e8/Blessed_Boots.gif/revision/latest?cb=20080305005158"
+        },
+        {
+          "slug": "shoes-of-laughter",
+          "name": "Shoes of Laughter",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Shoes_of_Laughter",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/71/Shoes_of_Laughter.gif/revision/latest?cb=20080305010420"
+        },
+        {
+          "slug": "maker-s-clothes-b-g",
+          "name": "Maker's Clothes(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Maker%27s_Clothes(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/55/Maker%27s_Clothes%28B%29.gif/revision/latest?cb=20080305023418"
+        },
+        {
+          "slug": "aviator-s-armor-t",
+          "name": "Aviator's Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/52/Aviator%27s_Armor%28T%29.gif/revision/latest?cb=20080224033448"
+        },
+        {
+          "slug": "suit-of-disguise-t",
+          "name": "Suit of Disguise(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Suit_of_Disguise(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/56/Suit_of_Disguise%28T%29.gif/revision/latest?cb=20080305010504"
+        },
+        {
+          "slug": "conjurers-robe-t",
+          "name": "Conjurers Robe(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Conjurers_Robe(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/b1/Conjurers_Robe%28T%29.gif/revision/latest?cb=20080303085425"
+        },
+        {
+          "slug": "brawlers-headband",
+          "name": "Brawlers Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brawlers_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/17/Brawlers_Headband.gif/revision/latest?cb=20080305090007"
+        },
+        {
+          "slug": "militia-headband",
+          "name": "Militia Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Militia_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/95/Militia_Headband.gif/revision/latest?cb=20080305090008"
+        },
+        {
+          "slug": "designer-s-suncap",
+          "name": "Designer's Suncap",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Designer%27s_Suncap",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/34/Designer%27s_Suncap.gif/revision/latest?cb=20080305023319"
+        },
+        {
+          "slug": "laborer-s-clothes-t",
+          "name": "Laborer's Clothes(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Laborer%27s_Clothes(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/ed/Laborer%27s_Clothes%28T%29.gif/revision/latest?cb=20080305023345"
+        },
+        {
+          "slug": "clothes-of-devotion-t",
+          "name": "Clothes of Devotion(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Clothes_of_Devotion(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/63/Clothes_of_Devotion%28T%29.gif/revision/latest?cb=20080313081932"
+        },
+        {
+          "slug": "shoes-of-devotion",
+          "name": "Shoes of Devotion",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Shoes_of_Devotion",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/03/Shoes_of_Devotion.gif/revision/latest?cb=20080305005549"
+        },
+        {
+          "slug": "viridian-shoes",
+          "name": "Viridian Shoes",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Viridian_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ad/Viridian_Shoes.gif/revision/latest?cb=20080305013926"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "bat-guy-mask",
+          "name": "Bat Guy Mask",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bat_Guy_Mask",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/68/Bat_Guy_Mask.gif/revision/latest?cb=20080207184419"
+        }
+      ],
+      "bPetEq": [
+        {
+          "slug": "stage-1-ancient-knight-snow-princess-s-chest-normal",
+          "name": "(Stage 1) Ancient Knight Snow Princess's Chest (Normal)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/(Stage_1)_Ancient_Knight_Snow_Princess%27s_Chest_(Normal)",
+          "imageUrl": null
+        }
+      ],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "magic-powder",
+          "name": "Magic Powder",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magic_Powder",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "happy-bah-bah",
+    "name": "Happy Bah Bah",
+    "level": 25,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c4/Happy_Bah_Bah.gif/revision/latest/scale-to-width-down/100?cb=20080201025852",
+    "foundAt": [
+      {
+        "slug": "crude-mountain-range",
+        "name": "Crude Mountain Range",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Crude_Mountain_Range",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fd/Crude_Mountain_Range.gif/revision/latest?cb=20080129012547"
+      },
+      {
+        "slug": "midstream-of-mimir-river",
+        "name": "Midstream of Mimir River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Midstream_of_Mimir_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f2/Midstream_of_Mimir_River.gif/revision/latest?cb=20080129014114"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "shiny-thread",
+          "name": "Shiny Thread",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Shiny_Thread",
+          "imageUrl": null
+        },
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "anthracite",
+          "name": "Anthracite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Anthracite",
+          "imageUrl": null
+        },
+        {
+          "slug": "stone",
+          "name": "stone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stone",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cd-3",
+          "name": "Production Manual(CD)#3",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CD)#3",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cld",
+          "name": "Production Manual(ClD)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ClD)",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-cmd-3",
+          "name": "Production Manual(CmD)#3",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(CmD)#3",
+          "imageUrl": null
+        },
+        {
+          "slug": "faded-wood",
+          "name": "Faded Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Faded_Wood",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "vorpal-knife",
+          "name": "Vorpal Knife",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vorpal_Knife",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5e/Vorpal_Knife.gif/revision/latest?cb=20080304080243"
+        },
+        {
+          "slug": "bah-bah-s-stick",
+          "name": "Bah Bah's Stick",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bah_Bah%27s_Stick",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/76/Bah_Bah%27s_Stick.gif/revision/latest?cb=20081023191421"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "box-clothes-t",
+          "name": "Box Clothes(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Box_Clothes(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d1/Box_Clothes%28T%29.gif/revision/latest?cb=20080314093654"
+        },
+        {
+          "slug": "metal-alloy-helmet-g",
+          "name": "Metal Alloy Helmet.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metal_Alloy_Helmet",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f0/Metal_Alloy_Helmet.gif/revision/latest?cb=20080223200033"
+        },
+        {
+          "slug": "mulberry-ribbon",
+          "name": "Mulberry Ribbon",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mulberry_Ribbon",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/3d/Mulberry_Ribbon.gif/revision/latest?cb=20080305013926"
+        },
+        {
+          "slug": "puppet-suit-b",
+          "name": "Puppet Suit(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Puppet_Suit(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/b7/Puppet_Suit%28B%29.gif/revision/latest?cb=20080305010420"
+        },
+        {
+          "slug": "tough-leather-armor-b",
+          "name": "Tough Leather Armor(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Tough_Leather_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/a8/Tough_Leather_Armor%28B%29.gif/revision/latest?cb=20110930160547"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "bat-s-wings",
+          "name": "Bat's Wings",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bat%27s_Wings",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/81/Bat%27s_Wings.gif/revision/latest?cb=20080304053640"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "flying-pig-boss",
+    "name": "Flying Pig (Boss)",
+    "level": 26,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/8d/Flying_Pig.gif/revision/latest/scale-to-width-down/100?cb=20080130085649",
+    "foundAt": [
+      {
+        "slug": "upstream-of-mimir-river",
+        "name": "Upstream of Mimir River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Mimir_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Upstream_of_Mimir_River.gif/revision/latest?cb=20080126092202"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "vampire-canine",
+          "name": "Vampire Canine",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vampire_Canine",
+          "imageUrl": null
+        },
+        {
+          "slug": "bat-s-teeth",
+          "name": "Bat's Teeth",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bat%27s_Teeth",
+          "imageUrl": null
+        },
+        {
+          "slug": "leather",
+          "name": "Leather",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Leather",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-chaoticdef-1",
+          "name": "Production Manual(ChaoticDef)#1",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ChaoticDef)#1",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-1",
+          "name": "Production Manual(Accessory)#1",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10#1",
+          "imageUrl": null
+        },
+        {
+          "slug": "sharp-tooth",
+          "name": "Sharp Tooth",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Sharp_Tooth",
+          "imageUrl": null
+        },
+        {
+          "slug": "dust-bomb",
+          "name": "Dust Bomb",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Dust_Bomb",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "translucent-great-sword",
+          "name": "Translucent Great Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Translucent_Great_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/ba/Translucent_Great_Sword.gif/revision/latest?cb=20080123112109"
+        },
+        {
+          "slug": "organic-carrot",
+          "name": "Organic Carrot",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Organic_Carrot",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/04/Organic_Carrot.gif/revision/latest?cb=20110316063931"
+        },
+        {
+          "slug": "battle-mace",
+          "name": "Battle Mace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Battle_Mace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/ed/Battle_Mace.gif/revision/latest?cb=20080305062325"
+        },
+        {
+          "slug": "wagon-driver-s-staff",
+          "name": "Wagon Driver's Staff",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wagon_Driver%27s_Staff",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0e/Wagon_Driver%27s_Staff.gif/revision/latest?cb=20080129111224"
+        },
+        {
+          "slug": "patrol-s-bean-shooter",
+          "name": "Patrol's Bean Shooter",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Patrol%27s_Bean_Shooter",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/80/Patrol%27s_Bean_Shooter.gif/revision/latest?cb=20110916192555"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "aviator-s-armor-t-g",
+          "name": "Aviator's Armor(T).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/52/Aviator%27s_Armor%28T%29.gif/revision/latest?cb=20080224033448"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "worn-out-necklace",
+          "name": "Worn Out Necklace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Worn_Out_Necklace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/70/Worn_Out_Necklace.jpg/revision/latest?cb=20140708181048"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "upstream-of-mimir-river",
+          "name": "Upstream of Mimir River",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Mimir_River",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "joe-the-kick-boxer",
+    "name": "Joe the Kick Boxer",
+    "level": 26,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/cc/Joe_the_Kick_Boxer.gif/revision/latest/scale-to-width-down/100?cb=20080201025830",
+    "foundAt": [
+      {
+        "slug": "adel-monastery",
+        "name": "Adel Monastery",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Adel_Monastery",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/01/Adel_Monastery.gif/revision/latest?cb=20110914081633"
+      },
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "5-color-string",
+          "name": "5 Color String",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/5_Color_String",
+          "imageUrl": null
+        },
+        {
+          "slug": "bowl",
+          "name": "Bowl",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bowl",
+          "imageUrl": null
+        },
+        {
+          "slug": "hot-blood",
+          "name": "Hot Blood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Hot_Blood",
+          "imageUrl": null
+        },
+        {
+          "slug": "white-ash",
+          "name": "White Ash",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/White_Ash",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-senility",
+          "name": "Man's Senility",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Senility",
+          "imageUrl": null
+        },
+        {
+          "slug": "wheat",
+          "name": "Wheat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wheat",
+          "imageUrl": null
+        },
+        {
+          "slug": "compression-bandage",
+          "name": "Compression Bandage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Compression_Bandage",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-romance",
+          "name": "Man's Romance",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Romance",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-11",
+          "name": "Production Manual(Accessory)#11",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)11-20#11",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-29",
+          "name": "Production Manual(Accessory)#29",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)21-30#29",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "ladle",
+          "name": "Ladle",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ladle",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/58/Ladle.gif/revision/latest?cb=20080126085242"
+        },
+        {
+          "slug": "gale-blade",
+          "name": "Gale Blade",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gale_Blade",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Gale_Blade.gif/revision/latest?cb=20080303111300"
+        },
+        {
+          "slug": "battle-mace",
+          "name": "Battle Mace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Battle_Mace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/ed/Battle_Mace.gif/revision/latest?cb=20080305062325"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "crystalline-shield",
+          "name": "Crystalline Shield",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Shield",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/86/Crystalline_Shield.gif/revision/latest?cb=20080317060532"
+        },
+        {
+          "slug": "blessed-hat-g",
+          "name": "Blessed Hat.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blessed_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d7/Blessed_Hat.gif/revision/latest?cb=20080305005159"
+        },
+        {
+          "slug": "militia-headband-g",
+          "name": "Militia Headband.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Militia_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/95/Militia_Headband.gif/revision/latest?cb=20080305090008"
+        },
+        {
+          "slug": "box-clothes-b-g",
+          "name": "Box Clothes(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Box_Clothes(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Box_Clothes%28B%29.gif/revision/latest?cb=20080314093702"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "must-win-headband",
+          "name": "\"Must Win\" Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/%22Must_Win%22_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/da/%22Must_Win%22_Headband.gif/revision/latest?cb=20080928162801"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "5-color-string",
+          "name": "5 Color String",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/5_Color_String",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-romance",
+          "name": "Man's Romance",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Romance",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "blue-plumber",
+    "name": "Blue Plumber",
+    "level": 27,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c5/Blue_Plumber.gif/revision/latest/scale-to-width-down/100?cb=20080201025945",
+    "foundAt": [
+      {
+        "slug": "forest-of-silon",
+        "name": "Forest of Silon",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Forest_of_Silon",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/9a/Forest_of_Silon.gif/revision/latest?cb=20080128005349"
+      },
+      {
+        "slug": "east-of-laywook-forest",
+        "name": "East of Laywook Forest",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/East_of_Laywook_Forest",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/8e/East_of_Laywook_Forest.gif/revision/latest?cb=20080128002745"
+      },
+      {
+        "slug": "west-of-laywook-forest",
+        "name": "West of Laywook Forest",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/West_of_Laywook_Forest",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c3/West_of_Laywook_Forest.gif/revision/latest?cb=20080128104934"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "pink-diamond",
+          "name": "Pink Diamond",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Pink_Diamond",
+          "imageUrl": null
+        },
+        {
+          "slug": "blue-water",
+          "name": "Blue Water",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Water",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "blue-dye",
+          "name": "Blue Dye",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Dye",
+          "imageUrl": null
+        },
+        {
+          "slug": "really-hard-shell",
+          "name": "Really Hard Shell",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Really_Hard_Shell",
+          "imageUrl": null
+        },
+        {
+          "slug": "anthracite",
+          "name": "Anthracite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Anthracite",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-1-10",
+          "name": "Production Manual(Accessory)1-10",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "gale-blade",
+          "name": "Gale Blade",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gale_Blade",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Gale_Blade.gif/revision/latest?cb=20080303111300"
+        },
+        {
+          "slug": "crystalline-dagger",
+          "name": "Crystalline Dagger",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Dagger",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Crystalline_Dagger.gif/revision/latest?cb=20080301061959"
+        },
+        {
+          "slug": "blue-plunger",
+          "name": "Blue Plunger",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Plunger",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/42/Blue_Plunger.gif/revision/latest?cb=20080305062326"
+        },
+        {
+          "slug": "cleric-piya-s-syringe",
+          "name": "Cleric Piya's Syringe",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Cleric_Piya%27s_Syringe",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/79/Cleric_Piya%27s_Syringe.gif/revision/latest?cb=20080305062455"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "militia-uniform-t",
+          "name": "Militia Uniform(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Militia_Uniform(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Militia_Uniform%28T%29.gif/revision/latest?cb=20080306012736"
+        },
+        {
+          "slug": "viridian-shoes-g",
+          "name": "Viridian Shoes.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Viridian_Shoes",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ad/Viridian_Shoes.gif/revision/latest?cb=20080305013926"
+        },
+        {
+          "slug": "tough-leather-armor-t",
+          "name": "Tough Leather Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Tough_Leather_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ab/Tough_Leather_Armor%28T%29.gif/revision/latest?cb=20110930160555"
+        },
+        {
+          "slug": "force-hat",
+          "name": "Force Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Force_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/e8/Force_Hat.gif/revision/latest?cb=20080305090008"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "ava-s-wings",
+          "name": "Ava's Wings",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ava%27s_Wings",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/e1/Ava%27s_Wings.gif/revision/latest?cb=20080331101057"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "forest-of-silon-east-of-laywook-forest-west-of-laywook-forest",
+          "name": "Forest of Silon East of Laywook Forest West of Laywook Forest",
+          "sourceUrl": null,
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "flying-pig-boss",
+    "name": "Flying Pig (Boss)",
+    "level": 26,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/8d/Flying_Pig.gif/revision/latest/scale-to-width-down/100?cb=20080130085649",
+    "foundAt": [
+      {
+        "slug": "upstream-of-mimir-river",
+        "name": "Upstream of Mimir River",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Mimir_River",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5a/Upstream_of_Mimir_River.gif/revision/latest?cb=20080126092202"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "vampire-canine",
+          "name": "Vampire Canine",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vampire_Canine",
+          "imageUrl": null
+        },
+        {
+          "slug": "bat-s-teeth",
+          "name": "Bat's Teeth",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Bat%27s_Teeth",
+          "imageUrl": null
+        },
+        {
+          "slug": "leather",
+          "name": "Leather",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Leather",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-chaoticdef-1",
+          "name": "Production Manual(ChaoticDef)#1",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(ChaoticDef)#1",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-1",
+          "name": "Production Manual(Accessory)#1",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)1-10#1",
+          "imageUrl": null
+        },
+        {
+          "slug": "sharp-tooth",
+          "name": "Sharp Tooth",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Sharp_Tooth",
+          "imageUrl": null
+        },
+        {
+          "slug": "dust-bomb",
+          "name": "Dust Bomb",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Dust_Bomb",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "translucent-great-sword",
+          "name": "Translucent Great Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Translucent_Great_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/ba/Translucent_Great_Sword.gif/revision/latest?cb=20080123112109"
+        },
+        {
+          "slug": "organic-carrot",
+          "name": "Organic Carrot",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Organic_Carrot",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/04/Organic_Carrot.gif/revision/latest?cb=20110316063931"
+        },
+        {
+          "slug": "battle-mace",
+          "name": "Battle Mace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Battle_Mace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/ed/Battle_Mace.gif/revision/latest?cb=20080305062325"
+        },
+        {
+          "slug": "wagon-driver-s-staff",
+          "name": "Wagon Driver's Staff",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wagon_Driver%27s_Staff",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0e/Wagon_Driver%27s_Staff.gif/revision/latest?cb=20080129111224"
+        },
+        {
+          "slug": "patrol-s-bean-shooter",
+          "name": "Patrol's Bean Shooter",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Patrol%27s_Bean_Shooter",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/8/80/Patrol%27s_Bean_Shooter.gif/revision/latest?cb=20110916192555"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "aviator-s-armor-t-g",
+          "name": "Aviator's Armor(T).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Aviator%27s_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/52/Aviator%27s_Armor%28T%29.gif/revision/latest?cb=20080224033448"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "worn-out-necklace",
+          "name": "Worn Out Necklace",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Worn_Out_Necklace",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/70/Worn_Out_Necklace.jpg/revision/latest?cb=20140708181048"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "upstream-of-mimir-river",
+          "name": "Upstream of Mimir River",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Upstream_of_Mimir_River",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "skilled-mage-piya",
+    "name": "(Skilled) Mage Piya",
+    "level": 28,
+    "element": "Magical",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/14/%28Skilled%29_Mage_Piya.gif/revision/latest/scale-to-width-down/100?cb=20080201060358",
+    "foundAt": [
+      {
+        "slug": "outer-wall-of-lime",
+        "name": "Outer Wall of Lime",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Outer_Wall_of_Lime",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/6f/Outer_Wall_of_Lime.gif/revision/latest?cb=20080130035221"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "black-orb",
+          "name": "Black Orb",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Black_Orb",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "piya-s-unfertilized-egg",
+          "name": "Piya's Unfertilized Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya%27s_Unfertilized_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-sage",
+          "name": "Mark of Sage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Sage",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-great-sage",
+          "name": "Mark of Great Sage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Great_Sage",
+          "imageUrl": null
+        },
+        {
+          "slug": "platinum",
+          "name": "Platinum",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Platinum",
+          "imageUrl": null
+        },
+        {
+          "slug": "soul-of-great-mage",
+          "name": "Soul of Great Mage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Soul_of_Great_Mage",
+          "imageUrl": null
+        },
+        {
+          "slug": "soul-of-holy-knight",
+          "name": "Soul of Holy Knight",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Soul_of_Holy_Knight",
+          "imageUrl": null
+        },
+        {
+          "slug": "brown-coal",
+          "name": "Brown Coal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Brown_Coal",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "iron-hammer",
+          "name": "Iron Hammer",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Iron_Hammer",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/50/Iron_Hammer.gif/revision/latest?cb=20080305033649"
+        },
+        {
+          "slug": "vorpal-knife",
+          "name": "Vorpal Knife",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vorpal_Knife",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5e/Vorpal_Knife.gif/revision/latest?cb=20080304080243"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "moon-boots",
+          "name": "Moon Boots",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Moon_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/f2/Moon_Boots.gif/revision/latest?cb=20090117195924"
+        },
+        {
+          "slug": "wanderer-s-hat",
+          "name": "Wanderer's Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Wanderer%27s_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/38/Wanderer%27s_Hat.gif/revision/latest?cb=20080305010527"
+        },
+        {
+          "slug": "viridian-tunic-t",
+          "name": "Viridian Tunic(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Viridian_Tunic(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d6/Viridian_Tunic%28T%29.gif/revision/latest?cb=20080305013926"
+        },
+        {
+          "slug": "alchemist-s-suncap",
+          "name": "Alchemist's Suncap",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Alchemist%27s_Suncap",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c3/Alchemist%27s_Suncap.gif/revision/latest?cb=20080305023246"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "devil-s-tail",
+          "name": "Devil's Tail",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Devil%27s_Tail",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/b/bc/Devil%27s_Tail.gif/revision/latest?cb=20080304053439"
+        },
+        {
+          "slug": "glasses",
+          "name": "Glasses",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Glasses",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/32/Glasses_.gif/revision/latest?cb=20080315012912"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "pink-piya-egg",
+          "name": "Pink Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Pink_Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "skilled-cleric-piya",
+    "name": "(Skilled) Cleric Piya",
+    "level": 29,
+    "element": "None",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/%28Skilled%29_Cleric_Piya.gif/revision/latest/scale-to-width-down/100?cb=20080201060612",
+    "foundAt": [
+      {
+        "slug": "outer-wall-of-lime",
+        "name": "Outer Wall of Lime",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Outer_Wall_of_Lime",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/6f/Outer_Wall_of_Lime.gif/revision/latest?cb=20080130035221"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "blue-water",
+          "name": "Blue Water",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blue_Water",
+          "imageUrl": null
+        },
+        {
+          "slug": "yellow-iron",
+          "name": "Yellow Iron",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Yellow_Iron",
+          "imageUrl": null
+        },
+        {
+          "slug": "green-wood",
+          "name": "Green Wood",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Green_Wood",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "piya-s-unfertilized-egg",
+          "name": "Piya's Unfertilized Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya%27s_Unfertilized_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-sage",
+          "name": "Mark of Sage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Sage",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-great-sage",
+          "name": "Mark of Great Sage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Great_Sage",
+          "imageUrl": null
+        },
+        {
+          "slug": "compression-bandage",
+          "name": "Compression Bandage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Compression_Bandage",
+          "imageUrl": null
+        },
+        {
+          "slug": "lignite",
+          "name": "Lignite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Lignite",
+          "imageUrl": null
+        },
+        {
+          "slug": "soul-of-holy-knight",
+          "name": "Soul of Holy Knight",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Soul_of_Holy_Knight",
+          "imageUrl": null
+        },
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "cleric-piya-s-syringe",
+          "name": "Cleric Piya's Syringe",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Cleric_Piya%27s_Syringe",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/79/Cleric_Piya%27s_Syringe.gif/revision/latest?cb=20080305062455"
+        },
+        {
+          "slug": "tempest",
+          "name": "Tempest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Tempest",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c6/Tempest.gif/revision/latest?cb=20080123112153"
+        },
+        {
+          "slug": "crystalline-dagger",
+          "name": "Crystalline Dagger",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Dagger",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Crystalline_Dagger.gif/revision/latest?cb=20080301061959"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "cleric-piya-s-hat",
+          "name": "Cleric Piya's Hat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Cleric_Piya%27s_Hat",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/e/e1/Cleric_Piya%27s_Hat.gif/revision/latest?cb=20080305005400"
+        },
+        {
+          "slug": "suit-of-laughter-t",
+          "name": "Suit of Laughter(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Suit_of_Laughter(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5d/Suit_of_Laughter%28T%29.gif/revision/latest?cb=20080305010504"
+        },
+        {
+          "slug": "geneva-crown",
+          "name": "Geneva Crown",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Geneva_Crown",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/3d/Geneva_Crown.gif/revision/latest?cb=20080305005202"
+        },
+        {
+          "slug": "maker-s-clothes-b",
+          "name": "Maker's Clothes(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Maker%27s_Clothes(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/55/Maker%27s_Clothes%28B%29.gif/revision/latest?cb=20080305023418"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "warrior-piya-s-glove",
+          "name": "Warrior Piya's Glove",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Warrior_Piya%27s_Glove",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/31/Warrior_Piya_Gloves.gif/revision/latest?cb=20080221073528"
+        }
+      ],
+      "bPetEq": [],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "none-outer-wall-of-lime",
+          "name": "None Outer Wall of Lime",
+          "sourceUrl": null,
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "dancing-pumpkin",
+    "name": "Dancing Pumpkin",
+    "level": 30,
+    "element": "Earth",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/c0/Dancing_Pumpkin.gif/revision/latest/scale-to-width-down/100?cb=20080201025908",
+    "foundAt": [
+      {
+        "slug": "crude-dungeon-1f",
+        "name": "Crude Dungeon 1F",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Crude_Dungeon_1F",
+        "imageUrl": null
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        },
+        {
+          "slug": "yellow-iron",
+          "name": "Yellow Iron",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Yellow_Iron",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "piece-of-glass",
+          "name": "Piece of Glass",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piece_of_Glass",
+          "imageUrl": null
+        },
+        {
+          "slug": "gasoline",
+          "name": "Gasoline",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gasoline",
+          "imageUrl": null
+        },
+        {
+          "slug": "mark-of-great-sage",
+          "name": "Mark of Great Sage",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Mark_of_Great_Sage",
+          "imageUrl": null
+        },
+        {
+          "slug": "crystal-of-hesed",
+          "name": "Crystal of Hesed",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal_of_Hesed",
+          "imageUrl": null
+        },
+        {
+          "slug": "stone",
+          "name": "Stone",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Stone",
+          "imageUrl": null
+        },
+        {
+          "slug": "peat",
+          "name": "Peat",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Peat",
+          "imageUrl": null
+        },
+        {
+          "slug": "anthracite",
+          "name": "Anthracite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Anthracite",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-23",
+          "name": "Production Manual(Accessory)#23",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)21-30#23",
+          "imageUrl": null
+        },
+        {
+          "slug": "production-manual-accessory-31",
+          "name": "Production Manual(Accessory)#31",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Production_Manual(Accessory)31-40#31",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "gale-blade",
+          "name": "Gale Blade",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gale_Blade",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fb/Gale_Blade.gif/revision/latest?cb=20080303111300"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "shoes-of-laughter-g",
+          "name": "Shoes of Laughter.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Shoes_of_Laughter",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/71/Shoes_of_Laughter.gif/revision/latest?cb=20080305010420"
+        },
+        {
+          "slug": "designer-s-clothes-t",
+          "name": "Designer's Clothes(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Designer%27s_Clothes(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/9/97/Designer%27s_Clothes%28T%29.gif/revision/latest?cb=20080305023319"
+        },
+        {
+          "slug": "viridian-tunic-b-g",
+          "name": "Viridian Tunic(B).G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Viridian_Tunic(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/73/Viridian_Tunic%28B%29.gif/revision/latest?cb=20080305013926"
+        },
+        {
+          "slug": "metal-alloy-armor-b",
+          "name": "Metal Alloy Armor(B)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metal_Alloy_Armor(B)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d3/Metal_Alloy_Armor%28B%29.gif/revision/latest?cb=20080224033913"
+        },
+        {
+          "slug": "blessed-vestments-t",
+          "name": "Blessed Vestments(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Blessed_Vestments(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d5/Blessed_Vestments%28T%29.gif/revision/latest?cb=20080305005159"
+        },
+        {
+          "slug": "schweinfurt",
+          "name": "Schweinfurt",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Schweinfurt",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/f/fe/Schweinfurt.gif/revision/latest?cb=20080305005546"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "large-pumpkin-s-head",
+          "name": "Large Pumpkin's head",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Large_Pumpkin%27s_head",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/4b/Large_Pumpkin%27s_head.gif/revision/latest?cb=20080331102421"
+        },
+        {
+          "slug": "head-of-pumpkin-ghost",
+          "name": "Head of Pumpkin Ghost",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Head_of_Pumpkin_Ghost",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/0f/Head_of_Pumpkin_Ghost.gif/revision/latest?cb=20080331102337"
+        }
+      ],
+      "bPetEq": [
+        {
+          "slug": "stage-1-ancient-knight-nitras-legs-normal",
+          "name": "(Stage 1) Ancient Knight Nitras' Legs (Normal)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/(Stage_1)_Ancient_Knight_Nitras%27_Legs_(Normal)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/1/15/%28Stage_1%29_Ancient_Knight_Nitras%27_Legs_%28Normal%29.gif/revision/latest?cb=20170307090726"
+        }
+      ],
+      "pets": [],
+      "questItems": [
+        {
+          "slug": "piece-of-glass",
+          "name": "Piece of Glass",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piece_of_Glass",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  },
+  {
+    "slug": "influential-knight-piya",
+    "name": "(Influential) Knight Piya",
+    "level": 30,
+    "element": "Physical",
+    "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/2/2c/%28Influential%29_Knight_Piya.gif/revision/latest/scale-to-width-down/100?cb=20080201030405",
+    "foundAt": [
+      {
+        "slug": "outer-wall-of-lime",
+        "name": "Outer Wall of Lime",
+        "sourceUrl": "https://sealonline.fandom.com/wiki/Outer_Wall_of_Lime",
+        "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/6/6f/Outer_Wall_of_Lime.gif/revision/latest?cb=20080130035221"
+      }
+    ],
+    "drops": {
+      "gems": [
+        {
+          "slug": "crystal",
+          "name": "Crystal",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystal",
+          "imageUrl": null
+        },
+        {
+          "slug": "ruby",
+          "name": "Ruby",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Ruby",
+          "imageUrl": null
+        }
+      ],
+      "items": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "man-s-senility",
+          "name": "Man's Senility",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Man%27s_Senility",
+          "imageUrl": null
+        },
+        {
+          "slug": "max-red-potion",
+          "name": "Max-Red Potion",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Max-Red_Potion",
+          "imageUrl": null
+        },
+        {
+          "slug": "gold",
+          "name": "Gold",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Gold",
+          "imageUrl": null
+        },
+        {
+          "slug": "platinum",
+          "name": "Platinum",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Platinum",
+          "imageUrl": null
+        },
+        {
+          "slug": "armor-pieces",
+          "name": "Armor Pieces",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Armor_Pieces",
+          "imageUrl": null
+        },
+        {
+          "slug": "anthracite",
+          "name": "Anthracite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Anthracite",
+          "imageUrl": null
+        },
+        {
+          "slug": "lignite",
+          "name": "Lignite",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Lignite",
+          "imageUrl": null
+        },
+        {
+          "slug": "soul-of-holy-knight",
+          "name": "Soul of Holy Knight",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Soul_of_Holy_Knight",
+          "imageUrl": null
+        }
+      ],
+      "weapons": [
+        {
+          "slug": "crystalline-sword",
+          "name": "Crystalline Sword",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Crystalline_Sword",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/0/06/Crystalline_Sword.gif/revision/latest?cb=20080301063436"
+        },
+        {
+          "slug": "vorpal-knife",
+          "name": "Vorpal Knife",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Vorpal_Knife",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5e/Vorpal_Knife.gif/revision/latest?cb=20080304080243"
+        }
+      ],
+      "armors": [
+        {
+          "slug": "metal-alloy-boots-g",
+          "name": "Metal Alloy Boots.G",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metal_Alloy_Boots",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/d/d1/Metal_Alloy_Boots.gif/revision/latest?cb=20080223200157"
+        },
+        {
+          "slug": "magnum-helm",
+          "name": "Magnum Helm",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Magnum_Helm",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/4/4d/Magnum_Helm.gif/revision/latest?cb=20080224034252"
+        },
+        {
+          "slug": "metal-alloy-armor-t",
+          "name": "Metal Alloy Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Metal_Alloy_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/c/cb/Metal_Alloy_Armor%28T%29.gif/revision/latest?cb=20080223200023"
+        },
+        {
+          "slug": "tough-leather-armor-t",
+          "name": "Tough Leather Armor(T)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Tough_Leather_Armor(T)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/a/ab/Tough_Leather_Armor%28T%29.gif/revision/latest?cb=20110930160555"
+        },
+        {
+          "slug": "scout-s-headband",
+          "name": "Scout's Headband",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Scout%27s_Headband",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/5/5f/Scout%27s_Headband.gif/revision/latest?cb=20110930160735"
+        }
+      ],
+      "accessories": [
+        {
+          "slug": "warrior-piya-gloves",
+          "name": "Warrior Piya Gloves",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Warrior_Piya_Gloves",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/3/31/Warrior_Piya_Gloves.gif/revision/latest?cb=20080221073528"
+        }
+      ],
+      "bPetEq": [
+        {
+          "slug": "stage-1-ancient-knight-epreath-s-chest-normal",
+          "name": "(Stage 1) Ancient Knight Epreath's Chest (Normal)",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/(Stage_1)_Ancient_Knight_Epreath%27s_Chest_(Normal)",
+          "imageUrl": "https://static.wikia.nocookie.net/sealonline/images/7/74/%28Stage_1%29_Ancient_Knight_Epreath%27s_Chest_%28Normal%29.gif/revision/latest?cb=20170811112917"
+        }
+      ],
+      "pets": [
+        {
+          "slug": "piya-egg",
+          "name": "Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Piya_Egg",
+          "imageUrl": null
+        },
+        {
+          "slug": "pink-piya-egg",
+          "name": "Pink Piya Egg",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Pink_Piya_Egg",
+          "imageUrl": null
+        }
+      ],
+      "questItems": [
+        {
+          "slug": "knight-s-crest",
+          "name": "Knight's Crest",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Knight%27s_Crest",
+          "imageUrl": null
+        },
+        {
+          "slug": "quest-center-manager",
+          "name": "Quest Center Manager",
+          "sourceUrl": "https://sealonline.fandom.com/wiki/Quest_Center_Manager",
+          "imageUrl": null
+        }
+      ]
+    },
+    "sourcePage": "16-30",
+    "sourceUrl": "https://sealonline.fandom.com/wiki/16-30"
+  }
+]

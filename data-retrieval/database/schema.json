@@ -1,226 +1,217 @@
 {
   "schema_name": "so_wiki_monster_data",
-  "version": 1,
-  "description": "Logical JSON schema for normalized Seal Online monster data imported from Fandom.",
+  "version": 2,
+  "description": "Logical schema for normalized Seal Online monster data with separate entity tables for maps, items, gems, pets, and each equipment class.",
   "enums": {
     "drop_category": [
-      "gems",
       "items",
+      "quest_items",
+      "gems",
+      "pets",
       "weapons",
       "armors",
       "accessories",
-      "b_pet_eq",
-      "pets",
-      "quest_items"
-    ],
-    "item_type": [
-      "gem",
-      "item",
-      "weapon",
-      "armor",
-      "accessory",
-      "b_pet_eq",
-      "pet",
-      "quest_item",
-      "unknown"
+      "b_pet_eq"
     ]
   },
   "tables": {
     "monsters": {
-      "description": "Core monster records only. No generated text blobs.",
+      "description": "Core monster records.",
       "primary_key": "id",
       "unique": [
         "slug"
       ],
       "columns": {
-        "id": {
-          "type": "uuid",
-          "nullable": false
-        },
-        "slug": {
-          "type": "text",
-          "nullable": false
-        },
-        "name": {
-          "type": "text",
-          "nullable": false
-        },
-        "level": {
-          "type": "integer",
-          "nullable": true
-        },
-        "element": {
-          "type": "text",
-          "nullable": true
-        },
-        "image_url": {
-          "type": "text",
-          "nullable": true
-        },
-        "source_page": {
-          "type": "text",
-          "nullable": true
-        },
-        "source_url": {
-          "type": "text",
-          "nullable": true
-        },
-        "created_at": {
-          "type": "timestamptz",
-          "nullable": false
-        },
-        "updated_at": {
-          "type": "timestamptz",
-          "nullable": false
-        }
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "level": { "type": "integer", "nullable": true },
+        "element": { "type": "text", "nullable": true },
+        "image_url": { "type": "text", "nullable": true },
+        "source_page": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
       }
     },
-    "locations": {
-      "description": "Distinct places where monsters can be found.",
+    "maps": {
+      "description": "Distinct map/location records.",
       "primary_key": "id",
       "unique": [
         "slug"
       ],
       "columns": {
-        "id": {
-          "type": "uuid",
-          "nullable": false
-        },
-        "slug": {
-          "type": "text",
-          "nullable": false
-        },
-        "name": {
-          "type": "text",
-          "nullable": false
-        },
-        "source_url": {
-          "type": "text",
-          "nullable": true
-        },
-        "map_image_url":{
-          "type": "text",
-          "nullable": true
-        },
-        "created_at": {
-          "type": "timestamptz",
-          "nullable": false
-        },
-        "updated_at": {
-          "type": "timestamptz",
-          "nullable": false
-        }
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "items": {
+      "description": "General item records including quest-item style drops.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "gems": {
+      "description": "Distinct gem records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "pets": {
+      "description": "Distinct pet drop records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "weapons": {
+      "description": "Distinct weapon drop records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "armors": {
+      "description": "Distinct armor drop records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "accessories": {
+      "description": "Distinct accessory drop records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
+      }
+    },
+    "battle_pet_equipments": {
+      "description": "Distinct battle-pet equipment records.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": { "type": "uuid", "nullable": false },
+        "slug": { "type": "text", "nullable": false },
+        "name": { "type": "text", "nullable": false },
+        "image_url": { "type": "text", "nullable": true },
+        "source_url": { "type": "text", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false },
+        "updated_at": { "type": "timestamptz", "nullable": false }
       }
     },
     "monster_locations": {
-      "description": "Join table between monsters and locations.",
+      "description": "Join table between monsters and maps.",
       "primary_key": null,
       "unique": [
         [
           "monster_id",
-          "location_id"
+          "map_id"
         ]
       ],
       "columns": {
-        "monster_id": {
-          "type": "uuid",
-          "nullable": false,
-          "references": "monsters.id"
-        },
-        "location_id": {
-          "type": "uuid",
-          "nullable": false,
-          "references": "locations.id"
-        },
-        "source_order": {
-          "type": "integer",
-          "nullable": true
-        },
-        "created_at": {
-          "type": "timestamptz",
-          "nullable": false
-        }
-      }
-    },
-    "items": {
-      "description": "Catalog of distinct drops and related item entities.",
-      "primary_key": "id",
-      "unique": [
-        "slug"
-      ],
-      "columns": {
-        "id": {
-          "type": "uuid",
-          "nullable": false
-        },
-        "slug": {
-          "type": "text",
-          "nullable": false
-        },
-        "name": {
-          "type": "text",
-          "nullable": false
-        },
-        "item_type": {
-          "type": "enum:item_type",
-          "nullable": false
-        },
-        "image_url": {
-          "type": "text",
-          "nullable": true
-        },
-        "source_url": {
-          "type": "text",
-          "nullable": true
-        },
-        "created_at": {
-          "type": "timestamptz",
-          "nullable": false
-        },
-        "updated_at": {
-          "type": "timestamptz",
-          "nullable": false
-        }
+        "monster_id": { "type": "uuid", "nullable": false, "references": "monsters.id" },
+        "map_id": { "type": "uuid", "nullable": false, "references": "maps.id" },
+        "source_order": { "type": "integer", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false }
       }
     },
     "monster_drops": {
-      "description": "Join table between monsters and items, grouped by drop category from Fandom.",
+      "description": "Typed join table between monsters and drop domains. Exactly one referenced drop target must be set per row.",
       "primary_key": "id",
       "unique": [
         [
           "monster_id",
+          "drop_category",
           "item_id",
-          "drop_category"
+          "gem_id",
+          "pet_id",
+          "weapon_id",
+          "armor_id",
+          "accessory_id",
+          "battle_pet_equipment_id"
         ]
       ],
       "columns": {
-        "id": {
-          "type": "uuid",
-          "nullable": false
-        },
-        "monster_id": {
-          "type": "uuid",
-          "nullable": false,
-          "references": "monsters.id"
-        },
-        "item_id": {
-          "type": "uuid",
-          "nullable": false,
-          "references": "items.id"
-        },
-        "drop_category": {
-          "type": "enum:drop_category",
-          "nullable": false
-        },
-        "source_order": {
-          "type": "integer",
-          "nullable": true
-        },
-        "created_at": {
-          "type": "timestamptz",
-          "nullable": false
-        }
-      }
+        "id": { "type": "uuid", "nullable": false },
+        "monster_id": { "type": "uuid", "nullable": false, "references": "monsters.id" },
+        "drop_category": { "type": "enum:drop_category", "nullable": false },
+        "item_id": { "type": "uuid", "nullable": true, "references": "items.id" },
+        "gem_id": { "type": "uuid", "nullable": true, "references": "gems.id" },
+        "pet_id": { "type": "uuid", "nullable": true, "references": "pets.id" },
+        "weapon_id": { "type": "uuid", "nullable": true, "references": "weapons.id" },
+        "armor_id": { "type": "uuid", "nullable": true, "references": "armors.id" },
+        "accessory_id": { "type": "uuid", "nullable": true, "references": "accessories.id" },
+        "battle_pet_equipment_id": { "type": "uuid", "nullable": true, "references": "battle_pet_equipments.id" },
+        "source_order": { "type": "integer", "nullable": true },
+        "created_at": { "type": "timestamptz", "nullable": false }
+      },
+      "constraints": [
+        "exactly_one_drop_target_non_null",
+        "drop_category_matches_target_table"
+      ]
     }
   },
   "document_shape": {
@@ -230,32 +221,25 @@
       "element": "None",
       "image_url": "https://static.wikia.nocookie.net/sealonline/images/example.gif",
       "found_at": [
-        "map1",
-        "map2",
-        "map3"
+        {
+          "name": "Travia Valley",
+          "image_url": "https://static.wikia.nocookie.net/sealonline/images/example-map.gif"
+        }
       ],
       "drops": {
         "gems": [
-          "Crystal",
-          "Red Fire",
-          "Blue Water"
+          {
+            "name": "Crystal",
+            "image_url": "https://static.wikia.nocookie.net/sealonline/images/example-gem.gif"
+          }
         ],
-        "items": [
-          "Geranium",
-          "Volcanic Rock",
-          "Forging Rock"
-        ],
+        "items": [],
+        "quest_items": [],
         "weapons": [],
-        "armors": [
-          "Enchanted Cotton Hat",
-          "Refreshing Soda Belt"
-        ],
-        "accessories": [
-          "Dumb Knuckle"
-        ],
+        "armors": [],
+        "accessories": [],
         "b_pet_eq": [],
-        "pets": [],
-        "quest_items": []
+        "pets": []
       }
     }
   }
