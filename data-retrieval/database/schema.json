@@ -1,0 +1,262 @@
+{
+  "schema_name": "so_wiki_monster_data",
+  "version": 1,
+  "description": "Logical JSON schema for normalized Seal Online monster data imported from Fandom.",
+  "enums": {
+    "drop_category": [
+      "gems",
+      "items",
+      "weapons",
+      "armors",
+      "accessories",
+      "b_pet_eq",
+      "pets",
+      "quest_items"
+    ],
+    "item_type": [
+      "gem",
+      "item",
+      "weapon",
+      "armor",
+      "accessory",
+      "b_pet_eq",
+      "pet",
+      "quest_item",
+      "unknown"
+    ]
+  },
+  "tables": {
+    "monsters": {
+      "description": "Core monster records only. No generated text blobs.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": {
+          "type": "uuid",
+          "nullable": false
+        },
+        "slug": {
+          "type": "text",
+          "nullable": false
+        },
+        "name": {
+          "type": "text",
+          "nullable": false
+        },
+        "level": {
+          "type": "integer",
+          "nullable": true
+        },
+        "element": {
+          "type": "text",
+          "nullable": true
+        },
+        "image_url": {
+          "type": "text",
+          "nullable": true
+        },
+        "source_page": {
+          "type": "text",
+          "nullable": true
+        },
+        "source_url": {
+          "type": "text",
+          "nullable": true
+        },
+        "created_at": {
+          "type": "timestamptz",
+          "nullable": false
+        },
+        "updated_at": {
+          "type": "timestamptz",
+          "nullable": false
+        }
+      }
+    },
+    "locations": {
+      "description": "Distinct places where monsters can be found.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": {
+          "type": "uuid",
+          "nullable": false
+        },
+        "slug": {
+          "type": "text",
+          "nullable": false
+        },
+        "name": {
+          "type": "text",
+          "nullable": false
+        },
+        "source_url": {
+          "type": "text",
+          "nullable": true
+        },
+        "map_image_url":{
+          "type": "text",
+          "nullable": true
+        },
+        "created_at": {
+          "type": "timestamptz",
+          "nullable": false
+        },
+        "updated_at": {
+          "type": "timestamptz",
+          "nullable": false
+        }
+      }
+    },
+    "monster_locations": {
+      "description": "Join table between monsters and locations.",
+      "primary_key": null,
+      "unique": [
+        [
+          "monster_id",
+          "location_id"
+        ]
+      ],
+      "columns": {
+        "monster_id": {
+          "type": "uuid",
+          "nullable": false,
+          "references": "monsters.id"
+        },
+        "location_id": {
+          "type": "uuid",
+          "nullable": false,
+          "references": "locations.id"
+        },
+        "source_order": {
+          "type": "integer",
+          "nullable": true
+        },
+        "created_at": {
+          "type": "timestamptz",
+          "nullable": false
+        }
+      }
+    },
+    "items": {
+      "description": "Catalog of distinct drops and related item entities.",
+      "primary_key": "id",
+      "unique": [
+        "slug"
+      ],
+      "columns": {
+        "id": {
+          "type": "uuid",
+          "nullable": false
+        },
+        "slug": {
+          "type": "text",
+          "nullable": false
+        },
+        "name": {
+          "type": "text",
+          "nullable": false
+        },
+        "item_type": {
+          "type": "enum:item_type",
+          "nullable": false
+        },
+        "image_url": {
+          "type": "text",
+          "nullable": true
+        },
+        "source_url": {
+          "type": "text",
+          "nullable": true
+        },
+        "created_at": {
+          "type": "timestamptz",
+          "nullable": false
+        },
+        "updated_at": {
+          "type": "timestamptz",
+          "nullable": false
+        }
+      }
+    },
+    "monster_drops": {
+      "description": "Join table between monsters and items, grouped by drop category from Fandom.",
+      "primary_key": "id",
+      "unique": [
+        [
+          "monster_id",
+          "item_id",
+          "drop_category"
+        ]
+      ],
+      "columns": {
+        "id": {
+          "type": "uuid",
+          "nullable": false
+        },
+        "monster_id": {
+          "type": "uuid",
+          "nullable": false,
+          "references": "monsters.id"
+        },
+        "item_id": {
+          "type": "uuid",
+          "nullable": false,
+          "references": "items.id"
+        },
+        "drop_category": {
+          "type": "enum:drop_category",
+          "nullable": false
+        },
+        "source_order": {
+          "type": "integer",
+          "nullable": true
+        },
+        "created_at": {
+          "type": "timestamptz",
+          "nullable": false
+        }
+      }
+    }
+  },
+  "document_shape": {
+    "monster": {
+      "name": "Piya",
+      "level": 1,
+      "element": "None",
+      "image_url": "https://static.wikia.nocookie.net/sealonline/images/example.gif",
+      "found_at": [
+        "map1",
+        "map2",
+        "map3"
+      ],
+      "drops": {
+        "gems": [
+          "Crystal",
+          "Red Fire",
+          "Blue Water"
+        ],
+        "items": [
+          "Geranium",
+          "Volcanic Rock",
+          "Forging Rock"
+        ],
+        "weapons": [],
+        "armors": [
+          "Enchanted Cotton Hat",
+          "Refreshing Soda Belt"
+        ],
+        "accessories": [
+          "Dumb Knuckle"
+        ],
+        "b_pet_eq": [],
+        "pets": [],
+        "quest_items": []
+      }
+    }
+  }
+}
