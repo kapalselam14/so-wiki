@@ -16,6 +16,7 @@ export function readEnv(env = process.env) {
     host: env.HOST || "127.0.0.1",
     port,
     logLevel: env.LOG_LEVEL || "info",
+    logPretty: env.LOG_PRETTY === "true",
     dbSsl: env.DB_SSL === "false" ? false : { rejectUnauthorized: false },
   };
 }

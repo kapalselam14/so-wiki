@@ -19,6 +19,9 @@ async function main() {
     await app.listen({
       host: config.host,
       port: config.port,
+      listenTextResolver: (address) => {
+        return `Seal Online Wiki API is running at ${address}`;
+      },
     });
   } catch (error) {
     app.log.error(error);

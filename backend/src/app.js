@@ -35,12 +35,32 @@ function registerErrorHandler(app) {
   });
 }
 
+function buildLoggerOptions(config) {
+  const loggerOptions = {
+    level: config?.logLevel || "info",
+  };
+
+  if (!config?.logPretty) {
+    return loggerOptions;
+  }
+
+  return {
+    ...loggerOptions,
+    transport: {
+      target: "pino-pretty",
+      options: {
+        translateTime: "SYS:standard",
+        ignore: "pid,hostname",
+        colorize: true,
+      },
+    },
+  };
+}
+
 export async function buildApp(options = {}) {
   const config = options.config ?? (options.repositories ? null : readEnv());
   const app = Fastify({
-    logger: options.logger ?? {
-      level: config?.logLevel || "info",
-    },
+    logger: options.logger ?? buildLoggerOptions(config),
     ajv: {
       customOptions: {
         removeAdditional: false,

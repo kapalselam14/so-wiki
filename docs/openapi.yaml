@@ -19,6 +19,25 @@ tags:
     description: Map listing endpoints
 
 paths:
+  /api/health:
+    get:
+      tags:
+        - Health
+      summary: Health check
+      description: Simple endpoint to verify the API is running.
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+        '500':
+          $ref: '#/components/responses/InternalServerError'
   /api/monsters:
     get:
       tags:
