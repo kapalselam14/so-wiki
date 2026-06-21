@@ -3,6 +3,7 @@ import { createPool } from "./db/pool.js";
 import { ApiError } from "./errors/apiError.js";
 import { readEnv } from "./config/env.js";
 import { createRepositories } from "./repositories/index.js";
+import { healthRoutes } from "./routes/healthRoutes.js";
 import { mapRoutes } from "./routes/mapRoutes.js";
 import { monsterRoutes } from "./routes/monsterRoutes.js";
 
@@ -60,6 +61,7 @@ export async function buildApp(options = {}) {
     });
   }
 
+  await app.register(healthRoutes, { prefix: "/api" });
   await app.register(monsterRoutes, { prefix: "/api/monsters" });
   await app.register(mapRoutes, { prefix: "/api/maps" });
 
