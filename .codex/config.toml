@@ -1,0 +1,112 @@
+# Seal Online Wiki — project-scoped Codex configuration
+# Save as: .codex/config.toml
+# ---------------------------------------------------------------------------
+# Main Codex session
+# ---------------------------------------------------------------------------
+
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+plan_mode_reasoning_effort = "high"
+model_verbosity = "medium"
+personality = "pragmatic"
+
+# Ask before commands or actions that need permission beyond the normal
+# project sandbox.
+
+approval_policy = "on-request"
+
+# Codex may read, modify, and run commands inside the active repository.
+
+sandbox_mode = "workspace-write"
+
+# Available values:
+# - "disabled"
+# - "cached"
+# - "live"
+#
+
+# Cached search is suitable for stable technical documentation.
+
+web_search = "cached"
+
+# Maximum amount of AGENTS.md content loaded as project instructions.
+# This is increased because the project AGENTS.md contains detailed role,
+# architecture, testing, and workflow guidance.
+
+project_doc_max_bytes = 65536
+
+# Model used when running /review.
+
+review_model = "gpt-5.5"
+
+# ---------------------------------------------------------------------------
+# Workspace sandbox
+# ---------------------------------------------------------------------------
+
+[sandbox_workspace_write]
+
+# Shell commands cannot access the internet unless this is changed to true.
+# Codex web search above is configured separately.
+
+network_access = false
+
+# Prevent writes to temporary directories outside the active repository.
+
+exclude_slash_tmp = true
+exclude_tmpdir_env_var = true
+
+# ---------------------------------------------------------------------------
+# Subagent configuration
+# ---------------------------------------------------------------------------
+
+[agents]
+
+# Maximum number of agent threads that can remain open simultaneously.
+# This supports the main session and several specialised agents without
+# creating excessive parallel work.
+
+max_threads = 6
+
+# Root sessions begin at depth 0.
+# A value of 1 allows direct subagents but prevents those subagents from
+# recursively spawning additional agents.
+
+max_depth = 1
+
+# Default timeout for each worker in batch subagent workflows.
+
+job_max_runtime_seconds = 1800
+
+# Custom agents should be stored separately:
+#
+# .codex/agents/project-assistant.toml
+# .codex/agents/software-planner.toml
+# .codex/agents/implementer.toml
+# .codex/agents/tester.toml
+# .codex/agents/reviewer.toml
+#
+
+# Each custom-agent file must define:
+#
+# name = "agent_identifier"
+# description = "When this agent should be used."
+# developer_instructions = """
+# Detailed instructions for this agent.
+# """
+
+#
+# The `name` field is the actual agent identifier. The filename is only a
+# naming convention.
+
+# ---------------------------------------------------------------------------
+# Stable convenience features
+# ---------------------------------------------------------------------------
+
+[features]
+
+# Allow supported Codex interfaces to undo recent Codex edits.
+undo = true
+
+# Reuse a shell-environment snapshot to speed up repeated command execution.
+
+shell_snapshot = true
