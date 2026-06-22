@@ -11,6 +11,8 @@ export function createRepositories(overrides = {}) {
   const mapRepository = {
     listMaps: async () => [],
     countMaps: async () => 0,
+    getMapBySlug: async () => null,
+    findMapMonsters: async () => [],
     ...(overrides.mapRepository || {}),
   };
 
