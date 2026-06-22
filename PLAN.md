@@ -11,7 +11,7 @@
 - **Status:** Active
 - **Owner:** pempekRebus
 - **Created:** 2026-06-16
-- **Last updated:** 2026-06-20
+- **Last updated:** 2026-06-22
 - **Target completion:** 2026-07-31
 - **Related issue/branch:** main
 - **Primary agent:** software-planner
@@ -45,8 +45,8 @@ This project is also a deliberate practice project. Each milestone should improv
 
 ### Current technology stack
 
-- **Frontend:** Planned React and Vite application, not yet present in this repository
-- **Backend:** Planned Node.js and Fastify application, not yet present in this repository
+- **Frontend:** Planned Next.js application with Tailwind CSS under `apps/web/`, not yet present in this repository
+- **Backend:** Node.js and Fastify application under `backend/`
 - **Database:** Supabase PostgreSQL, with schema and import-time database setup owned by `data-retrieval/`
 - **Data retrieval:** Node.js scripts under `data-retrieval/`
 - **Validation:** OpenAPI contract exists; no dedicated runtime validation library is present yet
@@ -67,15 +67,15 @@ Fetch -> Parse -> Normalise -> Validate -> Load
                   schema/init owned by data-retrieval
                                           |
                                           v
-                                Planned Fastify API
+                                Fastify API
                                           |
                                           v
-                                 Planned React Web
+                            Planned Next.js + Tailwind Web
 ```
 
 ### Current state
 
-The repository currently contains the data foundation for the backend milestone, but not the backend server itself.
+The repository currently contains the data foundation and the first Fastify backend API for the backend milestone.
 
 - `data-retrieval/src/clients/fandomClient.js` fetches Fandom HTML through the Fandom API.
 - `data-retrieval/src/parsers/monsterParser.js` parses monster sections and normalizes drops, locations, levels, images, and source URLs.
@@ -88,6 +88,7 @@ The repository currently contains the data foundation for the backend milestone,
   - `GET /api/monsters`
   - `GET /api/monsters/{slug}`
   - `GET /api/maps`
+  - `GET /api/maps/{slug}`
 - `backend/` now contains the first Fastify app, route modules, controllers, services, repositories, schemas, and tests for the monster/map read API.
 
 ### Confirmed gaps
@@ -139,7 +140,7 @@ This milestone gives the future frontend a stable data service instead of coupli
 
 - Write, update, delete, or admin endpoints
 - Authentication and user accounts
-- Frontend page implementation
+- Frontend page implementation; planned stack is Next.js with Tailwind CSS under `apps/web/`
 - New scraper/parser features unrelated to backend consumption
 - Expanding the API to NPCs, quests, characters, or full equipment browsing
 - Replacing the data-retrieval pipeline
@@ -178,7 +179,7 @@ This milestone gives the future frontend a stable data service instead of coupli
 
 ### Constraints
 
-- The current repo does not yet contain a Fastify app.
+- The current repo contains the first Fastify app under `backend/`.
 - The current repo does not yet contain backend lint, build, or test scripts at the root.
 - The current source of truth for API behaviour is `docs/openapi.yaml`.
 - The current source of truth for the monster/map/drop data model is `data-retrieval/database/schema.json` and `schema.sql`.
@@ -324,6 +325,12 @@ No structural importer changes are required for this milestone unless backend im
   - Monster list page consuming `GET /api/monsters`
   - Monster detail page consuming `GET /api/monsters/:slug`
   - Map list/filter UI consuming `GET /api/maps`
+  - Map detail page consuming `GET /api/maps/:slug`
+- Planned frontend stack:
+  - Next.js App Router
+  - Tailwind CSS
+  - TypeScript
+  - Fastify API as the normal application data source
 - Required states for future consumer:
   - Loading
   - Error

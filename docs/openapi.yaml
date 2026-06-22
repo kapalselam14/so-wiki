@@ -139,6 +139,26 @@ paths:
         '500':
           $ref: '#/components/responses/InternalServerError'
 
+  /api/maps/{slug}:
+    get:
+      tags:
+        - Maps
+      summary: Get map detail
+      description: Returns one map with monsters found there.
+      parameters:
+        - $ref: '#/components/parameters/MapSlug'
+      responses:
+        '200':
+          description: Map detail
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MapDetail'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
 components:
   parameters:
     Page:
@@ -163,6 +183,13 @@ components:
       in: path
       required: true
       description: Unique monster slug
+      schema:
+        type: string
+    MapSlug:
+      name: slug
+      in: path
+      required: true
+      description: Unique map slug
       schema:
         type: string
 
@@ -260,6 +287,18 @@ components:
             - string
             - 'null'
           format: uri
+
+    MapDetail:
+      allOf:
+        - $ref: '#/components/schemas/MapSummary'
+        - type: object
+          required:
+            - monsters
+          properties:
+            monsters:
+              type: array
+              items:
+                $ref: '#/components/schemas/MonsterSummary'
 
     DropEntity:
       type: object

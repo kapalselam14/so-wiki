@@ -101,3 +101,19 @@ export const mapListResponseSchema = {
     meta: paginationMetaSchema,
   },
 };
+
+export const mapDetailSchema = {
+  allOf: [
+    mapSummarySchema,
+    {
+      type: "object",
+      required: ["monsters"],
+      properties: {
+        monsters: {
+          type: "array",
+          items: monsterSummarySchema,
+        }
+      }
+    }
+  ]
+}

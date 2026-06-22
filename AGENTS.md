@@ -6,7 +6,7 @@ Seal Online Wiki is a full-stack web application for structured information abou
 
 Current or planned stack:
 
-- Frontend: React and Vite
+- Frontend: Next.js and Tailwind CSS under `apps/web/`
 - Backend: Node.js and Fastify
 - Database: Supabase PostgreSQL
 - Data retrieval: Node.js scripts for fetching, parsing, normalising, validating, and loading external data
@@ -226,7 +226,7 @@ Small, isolated changes may skip the Project Assistant, but significant architec
 
 ### 5.1 Frontend
 
-- Use functional React components.
+- Use functional React components with the Next.js App Router.
 - Organise domain-specific code under `apps/web/src/features`.
 - Keep reusable presentation components under `apps/web/src/components`.
 - Put API requests in service or data-access files.
@@ -234,6 +234,7 @@ Small, isolated changes may skip the Project Assistant, but significant architec
 - Do not access the Supabase service-role client from frontend code.
 - Prefer the Fastify API for normal application data access.
 - Every data-driven page must handle loading, error, empty, and success states.
+- Use Tailwind CSS for styling unless a specific feature requires a scoped alternative.
 - Use accessible semantic HTML where possible.
 - Preserve responsive behaviour.
 - Avoid global state unless local or feature-level state is insufficient.

@@ -1,5 +1,5 @@
 import { errorResponseSchema, paginationQuerySchema } from "./commonSchemas.js";
-import { mapListResponseSchema } from "./entitySchemas.js";
+import { mapListResponseSchema, mapDetailSchema } from "./entitySchemas.js";
 
 export const listMapsSchema = {
   querystring: {
@@ -16,3 +16,18 @@ export const listMapsSchema = {
     500: errorResponseSchema,
   },
 };
+
+export const getMapSchema = {
+  params: {
+    type : "object",
+    required: ["slug"],
+    properties: {
+      slug: {type: "string", minLength: 1}
+    },
+  },
+  response: {
+    200: mapDetailSchema,
+    404: errorResponseSchema,
+    500: errorResponseSchema,
+  }
+}

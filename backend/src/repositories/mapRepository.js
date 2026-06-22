@@ -1,5 +1,13 @@
 import { buildMapFilters } from "./sqlFilters.js";
 
+const MAP_SUMMARY_COLUMNS = `
+  map.id,
+  map.slug,
+  map.name,
+  map.image_url,
+  map.source_url
+  `
+
 export function createMapRepository(pool) {
   return {
     async listMaps(query, pagination) {
@@ -36,5 +44,40 @@ export function createMapRepository(pool) {
 
       return result.rows[0]?.total ?? 0;
     },
+
+    async getMapBySlug(slug){
+      const result = await pool.query(`
+        select ${MAP_SUMMARY_COLUMNS}
+        from maps map
+        where map.slug = $1
+        limit 1
+        `,
+        [slug]
+      );
+
+      return result.rows[0];
+    },
+
+    async findMapMonsters(mapId){
+      const result = await pool.query(`
+        select
+          m.id,
+          m.slug,
+          m.name,
+          m.level,
+          m.element,
+          m.image_url,
+          m.source_page,
+          m.source_url
+          from monster_locations ml
+          join monsters m on m.id = ml.monster_id
+          where ml.map_id = $1
+          order by m.level nulls last, m.name asc
+          `,
+          [mapId]
+      );
+
+      return result.rows;
+    }
   };
 }
